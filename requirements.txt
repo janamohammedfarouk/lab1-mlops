@@ -1,2 +1,1 @@
-pandas
-streamlit
+# No third-party packages are required; the app uses Python's standard library.

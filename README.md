@@ -1,24 +1,24 @@
 # CSV Reader
 
-A small Streamlit app that lets you upload a CSV file and view its first three rows.
+A small desktop app that lets you choose a CSV file, displays its first three data rows, and prints them in the terminal.
 
-## Run locally
+The app uses Python's standard library, so it does not need third-party packages.
 
-Create and activate a virtual environment, then install the dependencies:
+## Run on Windows
+
+If you do not already have a virtual environment, create one:
 
 ```powershell
 py -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
 ```
 
-Start the app:
+Start the app directly from the environment. Activation is not required:
 
 ```powershell
-streamlit run app.py
+.\.venv\Scripts\python.exe app.py
 ```
 
-Open the local URL printed by Streamlit and upload a `.csv` file. The first three rows appear in the page and are also printed in the terminal.
+Click **Choose CSV file** and select a `.csv` file. The first three data rows appear in the app and are also printed in the terminal.
 
 ## Student details
 
